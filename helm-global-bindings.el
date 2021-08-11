@@ -71,7 +71,6 @@ Using `setq' to modify this variable will have no effect."
     (define-key map (kbd "M-s o")     'helm-occur)
     (define-key map (kbd "M-g a")     'helm-do-grep-ag)
     (define-key map (kbd "c")         'helm-colors)
-    (define-key map (kbd "F")         'helm-select-xfont)
     (define-key map (kbd "8")         'helm-ucs)
     (define-key map (kbd "C-c f")     'helm-recentf)
     (define-key map (kbd "C-c g")     'helm-google-suggest)

@@ -47,6 +47,7 @@
 (declare-function helm-source--cl--print-table "helm-source.el")
 (declare-function helm-update "helm-core.el")
 (declare-function org-content "org.el")
+(declare-function org-cycle "org.el")
 (declare-function org-mark-ring-goto "org.el")
 (declare-function org-mark-ring-push "org.el")
 (declare-function org-table-p "org-compat.el")
